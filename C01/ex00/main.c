@@ -6,7 +6,7 @@
 /*   By: dramirez <dramirez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/22 12:17:17 by dramirez          #+#    #+#             */
-/*   Updated: 2022/08/22 18:22:18 by dramirez         ###   ########.fr       */
+/*   Updated: 2023/01/21 22:20:55 by dramirez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main(void)
 	int	a;
 	int	*p_a;
 
-	a = 12;
+	a = 522;
 	p_a = &a;
 	printf("Valor antes de la funcion: %d\n", a);
 	ft_ft(p_a);
