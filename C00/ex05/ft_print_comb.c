@@ -6,7 +6,7 @@
 /*   By: dramirez <dramirez@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 21:28:55 by dramirez          #+#    #+#             */
-/*   Updated: 2022/08/17 20:06:12 by dramirez         ###   ########.fr       */
+/*   Updated: 2023/01/21 21:33:46 by dramirez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	ft_print_comb(void)
 				ft_putchar(num3);
 				if (num1 != '7')
 					write (1, ", ", 2);
-					num3++;
+				num3++;
 			}
 			num2++;
 		}

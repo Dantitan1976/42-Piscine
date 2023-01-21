@@ -6,14 +6,16 @@
 /*   By: dramirez <dramirez@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 23:30:25 by dramirez          #+#    #+#             */
-/*   Updated: 2023/01/09 23:33:37 by dramirez         ###   ########.fr       */
+/*   Updated: 2023/01/21 20:43:18 by dramirez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_print_alphabet(void);
+void	ft_putchar(char c);
 
 int	main(void)
 {
 	ft_print_alphabet();
+	ft_putchar(10);
 	return (0);
 }
