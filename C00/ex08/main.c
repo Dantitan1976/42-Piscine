@@ -1,6 +1,20 @@
-void ft_print_combn (int n);
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dramirez <dramirez@student.42malaga.c      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/21 21:54:59 by dramirez          #+#    #+#             */
+/*   Updated: 2023/01/21 22:12:36 by dramirez         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+void	ft_print_combn(int n);
+void	ft_putchar(char c);
 
 int	main(void)
 {
-	ft_print_combn (4);
+	ft_print_combn (5);
+	ft_putchar(10);
 }
